@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 DEVICE_PATH := device/samsung/on5xelte
-
+TARGET_ARCH := arm
 # Assert
 TARGET_OTA_ASSERT_DEVICE := on5xeltexx,on5xelteks,on5xelte
 
