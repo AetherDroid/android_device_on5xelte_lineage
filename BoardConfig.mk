@@ -7,8 +7,8 @@ DEVICE_PATH := device/samsung/on5xelte
 TARGET_OTA_ASSERT_DEVICE := on5xeltexx,on5xelteks,on5xelte
 
 # Kernel
-TARGET_KERNEL_CONFIG := on5xelte_00_defconfig
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := /home/nick/android/lineage/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-
+TARGET_KERNEL_CONFIG := exynos7570-on5xelte_mea_defconfig
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
 # Bluetooth
