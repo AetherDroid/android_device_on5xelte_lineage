@@ -8,4 +8,4 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # Inherit common device configuration
 $(call inherit-product, vendor/samsung/universal7570-common.mk)
-$(call inherit-product, device/samsung/device-common.mk)
+$(call inherit-product, device/samsung/universal7570-common/device-common.mk)
