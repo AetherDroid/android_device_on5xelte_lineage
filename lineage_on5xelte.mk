@@ -11,8 +11,8 @@ $(call inherit-product, device/samsung/on5xelte/device.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := on5xelte
-PRODUCT_NAME := full_on5xelte
-PRODUCT_MODEL := SM-G570F
+PRODUCT_NAME := lineage_on5xelte
+PRODUCT_MODEL := SM-G570M
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
