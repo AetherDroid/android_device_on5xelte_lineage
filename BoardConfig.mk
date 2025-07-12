@@ -16,3 +16,4 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 
 # Inherit common board flags
 include device/samsung/universal7570-common/BoardConfigCommon.mk
+include vendor/samsung/BoardConfigVendor.mk
